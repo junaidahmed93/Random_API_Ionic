@@ -1,0 +1,47 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "mr",
+                "first": "آرمین",
+                "last": "احمدی"
+            },
+            "location": {
+                "street": "4723 امیرکبیر",
+                "city": "اسلام‌شهر",
+                "state": "بوشهر",
+                "postcode": 35966
+            },
+            "email": "آرمین.احمدی@example.com",
+            "login": {
+                "username": "blueleopard360",
+                "password": "budapest",
+                "salt": "mLEYzgRZ",
+                "md5": "5d4a7add32e0dc01647e85aa638f6e68",
+                "sha1": "490b94de3f63d44a0b10f072ebf8b2c68e6fe4dc",
+                "sha256": "0382804485c868b7f07a179d90a23aa796d987b19637e5736d8bb2825faa0bb8"
+            },
+            "registered": 1074163519,
+            "dob": 1069593660,
+            "phone": "056-53611395",
+            "cell": "0996-243-9267",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/84.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/84.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/84.jpg"
+            },
+            "nat": "IR"
+        }
+    ],
+    "info": {
+        "seed": "d641b048e10db0cd",
+        "results": 1,
+        "page": 1,
+        "version": "1.0"
+    }
+}

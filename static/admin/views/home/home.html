@@ -1,0 +1,108 @@
+<ion-view>
+    <ion-content>
+        <h1>Getting Data From Random API</h1>
+        <button ng-click="getData()">Get Data</button>
+        <!--<div ng-repeat="(key,value) in items">
+            {{key}} -- {{value}}    <br> <br>
+        </div>-->
+        <h3>Result</h3>
+        
+        <!--{{data.results}} <br>-->
+        <label>Gender : {{data.results[0].gender}}</label>
+        <br>
+
+        <label>Name : 
+            <ul>
+            <ol>Title: {{data.results[0].name.title}}</olli>
+            <ol>First Name:{{data.results[0].name.first}}</ol>
+            <ol>Last Name:{{data.results[0].name.last}}</ol>
+        </ul>     
+         </label>
+        <br>
+
+        <label>
+             Location : 
+             <ul>
+                 <li>street: {{data.results[0].location.street}}</li>
+                 <li>city: {{data.results[0].location.city}}</li>
+                 <li>state: {{data.results[0].location.state}}</li>
+                 <li>postcode: {{data.results[0].location.postcode}}</li>
+                 
+             </ul>
+         </label>
+        <br>
+
+        <label>
+             email: {{data.results[0].email}}
+         </label>
+        <br>
+
+        <label>
+             Login : 
+             <ul>
+                 <li>username: {{data.results[0].login.username}}</li>
+                 <li>password: {{data.results[0].login.password}}</li>
+                 <li>salt: {{data.results[0].login.salt}}</li>
+                 <li>md5: {{data.results[0].login.md5}}</li>
+                 <li>sha1: {{data.results[0].login.sha1}}</li>
+                 <li>sha256: {{data.results[0].login.sha256}}</li>
+             </ul>
+         </label>
+        <br>
+
+        <label>
+             Registered : {{data.results[0].registered}}
+         </label>
+        <br>
+
+        <label>
+             dob : {{data.results[0].dob}}
+         </label>
+        <br>
+
+        <label>
+             phone : {{data.results[0].phone}}
+         </label>
+        <br>
+
+        <label>
+             cell : {{data.results[0].cell}}
+         </label>
+        <br>
+
+        <label>
+             ID : 
+             <ul>
+                 <li>{{data.results[0].id.name}}</li>
+                 <li>{{data.results[0].id.value}}</li>
+             </ul>
+         </label>
+        <br>
+
+
+
+
+
+        <h3>Info</h3>
+        <!--{{data.info}}-->
+        <label>
+            seed : {{data.info.seed}}
+        </label>
+        <br>
+
+        <label>
+            results : {{data.info.results}}
+        </label>
+        <br>
+
+        <label>
+            page : {{data.info.page}}
+        </label>
+        <br>
+
+        <label>
+            version : {{data.info.version}}
+        </label>
+        <br>
+    </ion-content>
+</ion-view>
